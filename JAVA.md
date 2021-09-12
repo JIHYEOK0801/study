@@ -2,7 +2,7 @@
 
 1. [자바언어의 특징](#자바-언어의-특징)
 2. [메소드 오버로딩과 메소드 오버라이딩의 차이](#메소드-오버로딩과-오버라이딩)
-3. [접근지정자 public, 디폴트, protected, private 의 차이?](#public,protected.default,private)
+3. [접근지정자 public, 디폴트, protected, private 의 차이?](#publicprotecteddefaultprivate)
 4. [static과 non-static의 차이?](#static과-non-static)
 
 
