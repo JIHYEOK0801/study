@@ -7,13 +7,13 @@
 - [프로세스의 상태변화를 설명하시오](#프로세스의-상태변화)
   - Running > Ready 와 Running > Blocked의 차이점은?
 
-
+</br></br>
 
 > ## 프로세스의 의미
 
 메모리 할당이 이루어지고 실행중인 프로그램을 의미
 
-
+</br></br>
 
 > ## 프로세스의 구성 요소
 
@@ -34,7 +34,7 @@
 
   선언된 파일만 접근 가능한 변수
 
-
+</br></br>
 
 > ## 프로세스 스케줄링
 
@@ -44,11 +44,11 @@
 
   스케줄링을 담당하는 소프트웨어 요소. 운영체제의 요소이다.
 
-  
+</br></br>
 
 > ## 프로세스의 상태변화
 
-<img src="C:\Users\wkdwl\AppData\Roaming\Typora\typora-user-images\image-20210921120500417.png" alt="image-20210921120500417" style="zoom:50%;margin-left:0" />
+<img src="./img/os_img_01.jpg" style="zoom:50%;margin-left:0" />
 
 1. ### Start > Ready
 
@@ -86,3 +86,4 @@
 
   는 데이터 입,출력 때문에 프로세스가 Blocked되는 과정
 
+</br></br>
