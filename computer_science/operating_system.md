@@ -84,6 +84,7 @@
 
 - ##### **Running > Blocked**
 
-  는 데이터 입,출력 때문에 프로세스가 Blocked되는 과정
+  데이터 입,출력 때문에 프로세스가 Blocked되는 과정
 
 </br></br>
+
