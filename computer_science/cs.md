@@ -2,14 +2,14 @@
 
 
 
-## [운영체제](/operating_system.md#운영체제)
+## [운영체제](computer_science/operating_system.md#운영체제)
 
 - 프로세스의 의미
 - 프로세스의 구성요소
 - 프로세스 스케줄링이란?
 - 프로세스의 상태변화를 설명하시오
 
-## [JAVA](/java.md#java)
+## [JAVA](computer_science/java.md#java)
 
 - 자바언어의 특징은?
 - 메소드 오버로딩과 메소드 오버라이딩의 차이는?
