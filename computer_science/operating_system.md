@@ -72,17 +72,18 @@
 
 > ## 프로세스 스케줄링
 
-프로세스의 CPU할당 순서 및 방법을 결정하는 일
+프로세스의 CPU할당 순서 및 방법을 결정하는 일  
+df;lksjdf
+sd;lfkjs;dlfkj
 
-  
+dflkjsdflkj
 
-  
+s;dlfkjs;dflkj
 
-  
+s;ldfkjs;dlfkj
 
-  
 
-  
+sdf;lkjsd;flkj
 
 - #### 스케줄러
 
