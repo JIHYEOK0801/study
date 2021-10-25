@@ -407,25 +407,79 @@
 
       
 
-      ### start-line
+      ### start-line(시작 라인)
 
-      request-line / status-line
+      - #### 요청메시지
 
-      request-line = **method** SP(공백) **request-target** SP **HTTP-version** CRLF(엔터)
+        **request-line** / status-line
 
-      - method (HTTP 메서드)
+        **request-line** = **method** SP(공백) **request-target** SP **HTTP-version** CRLF(엔터)
 
-        서버가 수행해야 할 동작 지정
+        - method (HTTP 메서드)
 
-        ex. GET : 리소스 조회, POST : 요청 내역 처리 등
+          서버가 수행해야 할 동작 지정
 
-      - 요청 대상
+          ex. GET : 리소스 조회, POST : 요청 내역 처리 등
 
-        절대 경로 = "/"로 시작하는 경로
+        - 요청 대상
 
-      - HTTP Version
+          절대 경로 = "/"로 시작하는 경로
+
+        - HTTP Version
+
+          
+
+      - #### 응답메시지
+
+        request-line / **status-line**
+
+        **status-line** = **HTTP-version** SP **status-code** SP **reason-phrase** CRLF
+
+        - HTTP 버전
+
+        - HTTP 상태 코드
+
+          200 : 성공
+
+          400 : 클라이언트 요청 오류
+
+          500 : 서버 내부 오류
+
+        - 이유 문구 : 짧은 글 (ex. OK)
+
+          
+
+      ### header(HTTP 헤더)
+
+      header-field = **field-name:** OWS **field-value** OWS (OWS:띄어쓰기 허용)
+
+      **헤더의 용도**
+
+      - HTTP 전송에 필요한 모든 부가 정보
+
+        ex. 메시지 바디 내용, 메시지 바디 크기 등등
+
+        메시지 바디 내용 말고 모든 메타데이터가 들어가 있다고 생각
+
+      - 표준 헤더가 매우 많다
+
+      - 필요시 임의의 헤더 추가 가능
+
+        
+
+      ### message body(HTTP 메시지 바디)
+
+      **바디의 용도**
+
+      - 실제 전송할 데이터
+      - HTML 문서, 이미지, 영상, JSON 등등 byte로 표현할 수 있는 모든 데이터 전송 가능
 
       
 
-      ---
+      
 
+      ### 단순함 확장 가능
+
+      HTTP는 단순하지만 확장 가능한 기술이다
+
+      ---
