@@ -1,2 +1,5 @@
-test = set();
-test.add([1,2])
+def test():
+    answer = 0
+
+    def one():
+        
